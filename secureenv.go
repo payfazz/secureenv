@@ -189,7 +189,7 @@ func Uint(output *uint, key string) error {
 	}
 	defer os.Unsetenv(key)
 
-	val, err := strconv.ParseUint(env, 0, intsize)
+	val, err := strconv.ParseUint(env, 0, uintsize)
 	if err != nil {
 		return err
 	}
