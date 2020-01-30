@@ -4,7 +4,7 @@ Package secureenv provide utility to access env once.
 Every function in this package can only be called once, because it
 will unset the environment variable.
 
-Every function in this package won't touch ouput if env is not present.
+Every function in this package won't touch output if env is not present.
 
 Motivation
 
