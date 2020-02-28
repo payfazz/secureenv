@@ -1,15 +1,9 @@
 /*
 Package secureenv provide utility to access env once.
 
-Every function in this package can only be called once, because it
-will unset the environment variable.
+DEPRECATED
 
-Every function in this package won't touch output if env is not present.
-
-Motivation
-
-We need to unset the env when it is used, this will prevent environment variable
-leak to child process.
+This package is deprecated, please use v2
 */
 package secureenv
 
